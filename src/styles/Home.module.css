@@ -1,0 +1,34 @@
+.social_icons a {
+  font-size: 28px;
+  margin: 15px 3px;
+  color: #000;
+}
+
+.menu_items a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.line {
+  height: 5px;
+  margin: 10px 0;
+  background: #000;
+}
+.mobileNav {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .user{
+    display: none !important;
+  }
+  .componentsBtn,
+  .authLink {
+    display: none;
+  }
+  .mobileNav {
+    display: inline-block;
+  }
+}
